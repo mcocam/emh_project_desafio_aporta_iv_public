@@ -112,9 +112,10 @@ const pgClient = new Pool({
     password: PG_PASS,
     port: PG_PORT,
     allowExitOnIdle: true,
-    max: 99999,
+    idleTimeoutMillis: 1,
+    max: 50,
     ssl: {
-        rejectUnauthorized: false,
+        rejectUnauthorized: true,
         ca: fs
                 .readFileSync("./config/eu-west-3-bundle.pem")
                 .toString()
