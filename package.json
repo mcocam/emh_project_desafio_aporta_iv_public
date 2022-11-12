@@ -2,7 +2,7 @@
   "name": "emh-desafio-aporta-22",
   "version": "1.0.0",
   "engines": {
-    "node": "18.x"
+    "node": "19.x"
   },
   "description": "",
   "main": "app.js",

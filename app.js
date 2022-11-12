@@ -11,7 +11,7 @@ const helmet = require('helmet');
 
 // Node Child process
 let { PythonShell } = require('python-shell');
-PythonShell.defaultOptions = {pythonPath: 'python3', encoding: 'utf8'};
+PythonShell.defaultOptions = {pythonPath: 'python', encoding: 'utf8'};
 
 //Postgres
 const { Pool } = require("pg");
