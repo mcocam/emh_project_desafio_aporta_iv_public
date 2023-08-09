@@ -117,7 +117,7 @@ const pgClient = new Pool({
     ssl: {
         rejectUnauthorized: true,
         ca: fs
-                .readFileSync("./config/eu-west-3-bundle.pem")
+                .readFileSync("./config/eu-north-1-bundle.pem")
                 .toString()
     }
 });
