@@ -82,6 +82,7 @@ app.use(helmet({
                 '*.googlesyndication.com',
                 '*.googleapis.com',
                 '*.doubleclick.net',
+                '*googletagmanager.com/gtag/*'
                 ],
             defaultSrc: [
             "'self'",
