@@ -82,7 +82,8 @@ app.use(helmet({
                 '*.googlesyndication.com',
                 '*.googleapis.com',
                 '*.doubleclick.net',
-                '*googletagmanager.com/gtag/*'
+                '*.googletagmanager.com/gtag/*',
+                'https://www.googletagmanager.com/gtag/js?id=G-S5QFTRLRN1'
                 ],
             defaultSrc: [
             "'self'",
@@ -95,6 +96,8 @@ app.use(helmet({
             '*.googlesyndication.com',
             '*.googleapis.com',
             '*.doubleclick.net',
+             '*.googletagmanager.com/gtag/*',
+             'https://www.googletagmanager.com/gtag/js?id=G-S5QFTRLRN1'
             ],
         },
         },
